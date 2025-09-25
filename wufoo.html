@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .y{
+            text-align: left;
+            background-color: palevioletred; color:white;
+            font-size: 25px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .u{
+            text-align: left;
+            font-size: 40px;
+            font-weight: bold;
+           
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:white;
+            margin:10px;
+            padding:0px;
+        }
+        label{
+            font-weight: bold;
+            margin: 15px 0 5px 0;
+            display: block;
+        }
+        input[type="text"], input[type="number"]{
+            padding: 8px;
+            margin: 0px auto;
+            
+            border: 1px solid black;
+            border-top: 3px solid black;
+            
+           
+
+        }
+        small{
+            font-size: 16px;
+            margin-top: 3px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="y">
+        <h1>W<sub>u</sub>f<sub></sub><sub>o</sub><sub></sub>o</h1> 
+    </div>
+
+    <div class="u">
+         <p>Tuition Reimbursement</p> 
+    </div>
+        
+    <form>
+    
+         <P><label for="first"> NAME </label> </P>
+         <div>
+          <input type="text" id="first" name="first" >
+          <input type="text" name="last" id="last">
+         </div>
+          <small>First&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last</small>
+        <div>
+           <p> <label > Department</label></p>
+           <P> <input type="text" name="Department">
+            </p>
+        </div>
+        <div>
+           <p> <label for="university">University/College Name</label></p>
+           <input type="text" id="university" name="university">
+        </div>
+        <div>
+            <p> <label for="degree"> Degree Pursued</label></p>
+            <input type="text" id="degree" name="degree">
+        </div>
+        <div>
+            <p> <label for="cost"> Cost per Credit</label></p>
+            <span>$</span>
+            <input type="number" id="cost" name="cost">
+           <span>.</span>
+            <input type="text" size="2"  >
+             
+        </div>
+
+    </form>
+    
+</body>
+</html>
